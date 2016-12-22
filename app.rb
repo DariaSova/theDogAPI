@@ -11,7 +11,7 @@ end
 get '/dog.gif' do
  #erb :main
   content_type 'image/gif'
-  cache_control :public, :max_age => 60
+  cache_control :public, :must_revalidate, :max_age => 60
   url = Giphy.random('funny dogs').image_original_url
   img = MiniMagick::Image.open("#{url}")
   img.write 'dog.gif'
