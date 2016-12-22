@@ -2,6 +2,5 @@ require './app'
 run Sinatra::Application
 
 Giphy::Configuration.configure do |config|
-  config.version = THE_API_VERSION
-  config.api_key = YOUR_API_KEY
+  config.api_key = 'dc6zaTOxFJmzC'
 end
