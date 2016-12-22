@@ -6,5 +6,6 @@ gem 'sinatra'
 gem 'giphy'
 gem 'pry-byebug'
 gem 'rmagick'
+gem 'mini_magick'
 gem 'json'
 

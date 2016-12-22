@@ -22,6 +22,7 @@ GEM
     launchy (2.4.3)
       addressable (~> 2.3)
     method_source (0.8.2)
+    mini_magick (4.6.0)
     multipart-post (2.0.0)
     oj (2.18.0)
     pry (0.10.4)
@@ -49,6 +50,7 @@ PLATFORMS
 DEPENDENCIES
   giphy
   json
+  mini_magick
   pry-byebug
   rmagick
   sinatra
